@@ -1,0 +1,43 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#bookmarks-list {
+    text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.bookmark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f1f1f;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.bookmark a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
